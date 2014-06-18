@@ -1,0 +1,28 @@
+/*base*/
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dt,dd,input,button{ margin:0; padding:0; word-break:break-all }
+body{ font: 14px/24px Verdana, Geneva, sans-serif,"微软雅黑"; color:#333}
+ul,ol{ list-style:none}
+.table{ border-collapse:collapse}
+input{ vertical-align:middle}
+/*common*/
+h1{ font-size:24px}
+h2{ font-size:20px}
+h3{ font-size:18px}
+h4{ font-size:16px}
+h5{ font-size:14px}
+h6{ font-size:12px}
+a{ cursor:pointer; text-decoration:none}
+.text{ height:40px; width:200px}
+.radio{ vertical-align:-1px;  *vertical-align: middle; margin-right:3px}
+select{ height:22px;}
+.fl{ float:left; _display:inline}
+.fr{ float:right; _display:inline}
+.cb{ clear:both}
+.pr{ position:relative}
+.pa{ position:absolute}
+.mc{ margin:0 auto}
+.clearfix:after{ content:""; height:0; visibility:hidden; clear:both; display:block;}
+.clearfix{zoom:1}
+/*layout*/
+.layout960{ width:960px}
+.layout240{ width:240px }
